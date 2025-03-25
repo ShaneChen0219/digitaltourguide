@@ -1,0 +1,27 @@
+{
+  "New York": [
+    {
+      "name": "Statue of Liberty",
+      "address": "New York, NY 10004, United States",
+      "latitude": 40.6892,
+      "longitude": -74.0445,
+      "audioURL": "https://example.com/statueofliberty.mp3"
+    },
+    {
+      "name": "MoMA",
+      "address": "11 W 53rd St, New York, NY 10019, United States",
+      "latitude": 40.7614,
+      "longitude": -73.9776,
+      "audioURL": "https://example.com/moma.mp3"
+    }
+  ],
+  "San Francisco": [
+    {
+      "name": "Golden Gate Bridge",
+      "address": "Golden Gate Bridge, San Francisco, CA",
+      "latitude": 37.8199,
+      "longitude": -122.4783,
+      "audioURL": "https://example.com/goldengate.mp3"
+    }
+  ]
+}
