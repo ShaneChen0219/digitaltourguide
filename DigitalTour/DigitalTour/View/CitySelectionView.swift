@@ -16,10 +16,13 @@ struct CitySelectionView: View {
         NavigationStack {
             List(cities, id: \.cityName) { city in
                 Button(action: {
-                    selectedCity = city
-                    navigateToSpots = true
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                        selectedCity = city
+                        navigateToSpots = true
+                    }
                 }) {
                     Text(city.cityName)
+                        .padding()
                 }
             }
             .navigationTitle("Choose a City")
