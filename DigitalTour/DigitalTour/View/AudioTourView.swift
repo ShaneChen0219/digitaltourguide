@@ -13,9 +13,9 @@ struct AudioTourView: View {
             Slider(value: $audioProgress, in: 0...1)
             
             HStack(spacing: 40) {
-                // Previous track button (optional)
+                //TODO: Previous track button (optional)
                 Button(action: {
-                    // Implement previous track logic if needed
+                    
                 }) {
                     Image(systemName: "backward.fill")
                         .font(.title)
@@ -34,9 +34,9 @@ struct AudioTourView: View {
                         .font(.title)
                 }
                 
-                // Next track button (optional)
+                //TODO: Next track button
                 Button(action: {
-                    // Implement next track logic if needed
+                    
                 }) {
                     Image(systemName: "forward.fill")
                         .font(.title)

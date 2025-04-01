@@ -109,6 +109,6 @@ struct SpotsMapView: View {
             
             Spacer()
         }
-        .navigationTitle("") // Clear default navigation title if needed
+        .navigationTitle("")
     }
 }
